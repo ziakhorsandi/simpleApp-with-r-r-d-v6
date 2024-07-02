@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom';
 import classes from './post.module.css';
-const Post = ({ name, desc }) => {
+const Post = ({ id, name, desc }) => {
   return (
-    <li className={classes.container}>
-      <p>{name}</p>
-      <p>{desc}</p>
-    </li>
+    <Link to={id}>
+      <li className={classes.container}>
+        <p>{name}</p>
+        <p>{desc}</p>
+      </li>
+    </Link>
   );
 };
 

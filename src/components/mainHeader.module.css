@@ -15,4 +15,8 @@ button {
   padding: 15px;
   height: 80%;
   border-radius: 5px;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
 }

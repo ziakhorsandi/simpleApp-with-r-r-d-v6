@@ -12,3 +12,7 @@ li p {
   margin: 5px;
   text-align: left;
 }
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}

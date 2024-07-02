@@ -26,6 +26,9 @@ input {
   justify-content: end;
   gap: 10px;
 }
+.btns a {
+  text-decoration: none;
+}
 button {
   height: 35px;
 }
